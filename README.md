@@ -41,6 +41,7 @@
 │   ├── 📁 Pages
 ├── 📁 Documentação
 │   ├── 📁 Fase-1
+│   │   ├── 📄 Atividades (Exemplos)
 │   ├── 📁 Fase-2
 │   ├── 📁 Fase-3
 │   ├── 📁 Fase-4
@@ -63,6 +64,10 @@
 
 
 ### Fase 2 - Prototyping
+
+> Apresentando o protótipo que resume minha ideia e visão para o projeto.
+[Protipo das telas](Documentação/Fase-2/MoneyMind-Merged.pdf)
+
 
 ### Fase 3 - Modeling
 
