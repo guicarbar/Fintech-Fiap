@@ -34,7 +34,7 @@
 <h2 id="structure">📂 Estrutura do Projeto</h2>
 
 ```bash
-📦 Fintech - (Fiap - Money Minds)
+📦 Fintech - (FIAP - Money Minds)
 ├── 📁 Code
 │   ├── 📁 Style
 │   ├── 📁 Js
@@ -44,17 +44,17 @@
 │   │   ├── 📄 StoryMapping.png
 │   │   └── 📄 VisãoDoSistema.pdf
 │   ├── 📁 Fase-2 
-│   │   └── 📄 PrototipoDasTelas.pdf
+│   │   └── 📄 ProtótipoDasTelas.pdf
 │   ├── 📁 Fase-3
-│   │   ├── 📄 ModeloLogico.png
+│   │   ├── 📄 ModeloLógico.png
 │   │   ├── 📄 ModeloRelacional.png
-│   │   └── 📁 BD-MOneyMind (Modelo logico e ralacional)
+│   │   └── 📁 BD-MoneyMind (Modelos lógico e relacional)
 │   ├── 📁 Fase-4
 │   ├── 📁 Fase-5
 │   ├── 📁 Fase-6
 │   ├── 📁 Fase-7
 │   ├── 📁 IMG (Imagens para a documentação)
-├── 📄 index.html (HTML - Money Minds)
+├── 📄 index.html (Página principal - Money Minds)
 ├── 📄 README.md
 └── 📄 LICENSE
 ```
@@ -64,29 +64,35 @@
 
 ### Fase 1 - Development Environment 🖥️⚙️
 
-[Documento Visão do Sistema](Documentação/Fase-1/DocumentoVisãoDoSistema.pdf)
-[User Story Mapping](Documentação/Fase-1/UserStoryMapping-Money%20Minds.pdf)
+📄 [Documento Visão do Sistema](Documentacao/Fase-1/DocumentoVisãoDoSistema.pdf)
+
+📄 [User Story Mapping](Documentacao/Fase-1/UserStoryMapping-Money%20Minds.pdf)
 
 
 ### Fase 2 - Prototyping 🧩✏️
 
 > A seguir, é apresentado o protótipo que ilustra a ideia e a visão inicial do projeto, com algumas telas de exemplo mostradas em sequência.
-[Protipo das telas](Documentação/Fase-2/MoneyMind-Merged.pdf)
+
+🧩 [Protótipo das Telas](Documentacao/Fase-2/MoneyMind-Merged.pdf)
 
 
 ### Fase 3 - Modeling 🧠📊
 
 > O modelo lógico e o modelo relacional do banco de dados do projeto foram desenvolvidos utilizando a ferramenta Oracle SQL Developer Data Modeler, conforme orientação da faculdade.
 > *Observação*: um backup completo do banco de dados desenvolvido foi armazenado na pasta: `Fintech-FIAP > Documentação > Fase-3 > BD-MoneyMind`
-[📂 Backup Do Projeto](Documentação/Fase-3/BD-MoneyMind/)
+
+📂 [Backup do BD](Documentacao/Fase-3/BD-MoneyMind/)
 
 <p align="center"> 
-  <img src="Documentação/Fase-3/MoneyMind-BD-Logicol.png" alt="Modelo Lógico" width="400px">
-  <img src="Documentação/Fase-3/MoneyMind_BD-Relacional.png" alt="Modelo Relacional" width="400px">
+  <img src="Documentacao/Fase-3/MoneyMind-BD-Logico.png" alt="Modelo Lógico" width="400">
+  <img src="Documentacao/Fase-3/MoneyMind_BD-Relacional.png" alt="Modelo Relacional" width="400">
 </p>
 
 
 ### Fase 4 - View 🎨👁️
+
+
+
 
 ### Fase 5 - OOP 💻🔄
 
@@ -98,4 +104,4 @@
 
 ## 📜 Licença
 
-Este projeto está sob a licença [MIT]() License.
+Este projeto está sob a licença [MIT](LICENSE) License.
