@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDBCAE8F-CA16-589C-5555-B2BC716D6D58" name="TB_EXPENSES">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>86E56495-6921-8327-E968-42B19AFFD29E</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_USER_CD_USER" id="B025D88F-EA7C-9A50-1855-A205BD8B61D0">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>DB20EB7E-AF5B-E931-C57F-DDC2CC7BF3A0</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF2A51C7-E423-EE12-27FC-B9EDA843561F" referredColumn="70879236-D442-F173-78DC-041A4EAB8201"/>
+</associations>
+</Column>
+<Column name="CD_EXPENSES" id="4F721BD7-7B1E-3785-C1C8-2ACBDC4B3EB8">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>F50259B6-02D2-0FB0-BA81-64ACC9B115EC</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_BANK_CD_BANK" id="7B38ACE8-B297-1F58-2807-CA5091150764">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>B64AF881-7B9A-E708-9727-56DE80E9F3FB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AAAEA9E-48A1-47D1-A0A8-B581A8016B4C" referredColumn="D40338AE-253E-E9D5-32F5-36AF52E156E6"/>
+</associations>
+</Column>
+<Column name="EXPENSES_NOM" id="56C7AF47-3AC9-2A3E-20F8-087954164C8C">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>F4634CAA-58BD-12CC-507C-7053B17C23B4</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPENSES_VALUE" id="66591D40-CB8B-1434-1E18-9320AA999BAE">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>F465EA4E-C639-E42A-F151-C1BC2347FC76</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPENSES_DATE" id="E388A710-0683-0981-56AC-1892CDE0F38F">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>673DEE1A-9D23-C554-B1B4-0B74312322DA</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPENSES_METHOD" id="D1AE723F-03E8-32C7-B34E-B3E33A9A3BBC">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>16929EA4-5FA8-E518-56A9-FBC809252BDB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78861915-5818-2550-2CEA-A23A5D48AA21" name="TB_EXPENSES_PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>82A3A2FA-1392-8EDA-2691-CB489265DC6E</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F721BD7-7B1E-3785-C1C8-2ACBDC4B3EB8"/>
+<colUsage columnID="B025D88F-EA7C-9A50-1855-A205BD8B61D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F427554-EBE1-E20D-5962-C312470005C0" name="TB_EXPENSES__IDX">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E16B266E-D540-55B1-BA21-CD7FB9E275CB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7B38ACE8-B297-1F58-2807-CA5091150764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28F87FF-C014-61AD-3CAA-D734254A053C" name="TB_EXPENSES_TB_BANK_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>E16B266E-D540-55B1-BA21-CD7FB9E275CB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B38ACE8-B297-1F58-2807-CA5091150764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30238452-D080-F510-1EFE-898C9B141E43" name="TB_EXPENSES_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>97165F32-13E1-3AA9-4585-3D647A3C9FDF</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B025D88F-EA7C-9A50-1855-A205BD8B61D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BANKS_TO-USER_BANKS" directorySegmentName="seg_0" id="96711BBB-1D0C-9098-647B-C14D6AAE8516">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:53:40 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<sourcePk>79C9720A-486A-FA81-78DE-C92384DAAB59</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>424C2017-0E87-8C35-5FDB-1E17FE34F412</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3746409E-5158-8739-363C-4331B1034E22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

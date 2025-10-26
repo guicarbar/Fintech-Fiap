@@ -41,9 +41,14 @@
 │   ├── 📁 Pages
 ├── 📁 Documentação
 │   ├── 📁 Fase-1
-│   │   ├── 📄 Atividades (Exemplos)
-│   ├── 📁 Fase-2
+│   │   ├── 📄 StoryMapping.png
+│   │   └── 📄 VisãoDoSistema.pdf
+│   ├── 📁 Fase-2 
+│   │   └── 📄 PrototipoDasTelas.pdf
 │   ├── 📁 Fase-3
+│   │   ├── 📄 ModeloLogico.png
+│   │   ├── 📄 ModeloRelacional.png
+│   │   └── 📁 BD-MOneyMind (Modelo logico e ralacional)
 │   ├── 📁 Fase-4
 │   ├── 📁 Fase-5
 │   ├── 📁 Fase-6
@@ -57,27 +62,37 @@
 
 <h2 id="started">🚀 Começando</h2>
 
-### Fase 1 - Development Environment
+### Fase 1 - Development Environment 🖥️⚙️
 
 [Documento Visão do Sistema](Documentação/Fase-1/DocumentoVisãoDoSistema.pdf)
 [User Story Mapping](Documentação/Fase-1/UserStoryMapping-Money%20Minds.pdf)
 
 
-### Fase 2 - Prototyping
+### Fase 2 - Prototyping 🧩✏️
 
-> Apresentando o protótipo que resume minha ideia e visão para o projeto.
+> A seguir, é apresentado o protótipo que ilustra a ideia e a visão inicial do projeto, com algumas telas de exemplo mostradas em sequência.
 [Protipo das telas](Documentação/Fase-2/MoneyMind-Merged.pdf)
 
 
-### Fase 3 - Modeling
+### Fase 3 - Modeling 🧠📊
 
-### Fase 4 - View
+> O modelo lógico e o modelo relacional do banco de dados do projeto foram desenvolvidos utilizando a ferramenta Oracle SQL Developer Data Modeler, conforme orientação da faculdade.
+> *Observação*: um backup completo do banco de dados desenvolvido foi armazenado na pasta: `Fintech-FIAP > Documentação > Fase-3 > BD-MoneyMind`
+[📂 Backup Do Projeto](Documentação/Fase-3/BD-MoneyMind/)
 
-### Fase 5 - OOP
+<p align="center"> 
+  <img src="Documentação/Fase-3/MoneyMind-BD-Logicol.png" alt="Modelo Lógico" width="400px">
+  <img src="Documentação/Fase-3/MoneyMind_BD-Relacional.png" alt="Modelo Relacional" width="400px">
+</p>
 
-### Fase 6 - Model
 
-### Fase 7 - Integration
+### Fase 4 - View 🎨👁️
+
+### Fase 5 - OOP 💻🔄
+
+### Fase 6 - Model 🗂️🧱
+
+### Fase 7 - Integration 🔗🚀
 
 
 

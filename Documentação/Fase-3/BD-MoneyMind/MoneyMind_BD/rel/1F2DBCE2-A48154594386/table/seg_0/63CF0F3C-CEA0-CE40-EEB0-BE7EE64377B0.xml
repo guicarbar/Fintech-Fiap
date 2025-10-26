@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63CF0F3C-CEA0-CE40-EEB0-BE7EE64377B0" name="TB_USER">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>C6DA9A6B-E4AB-8393-E390-E7CE4EA8EAAF</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<abbreviation>User</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_USER" id="70879236-D442-F173-78DC-041A4EAB8201">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>DF90D696-0CD3-025B-24E0-16126864F850</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_USER" id="70E25CBA-29F4-4CA6-DE9C-BC8850F458DF">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>E0CC3768-5587-AAD0-98CF-D2A4777537E7</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_REGISTER" id="8BA04A5F-E309-915B-C98E-FCB2470E7EFF">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>CE0C6EE4-57A5-B7EB-E118-FF3300694387</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812F87B3-CEED-BD7D-D7DA-9C56042D4011" name="TB_USER_PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>857F4985-6250-C149-2C82-AED43EAA3CDA</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70879236-D442-F173-78DC-041A4EAB8201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

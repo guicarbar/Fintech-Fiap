@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="83ADE9BA-B115-88E2-0DF4-2021C31A4A75">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 16:51:02 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

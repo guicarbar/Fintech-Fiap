@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E49751D6-9801-AD08-B3DD-0863C0FE9C80" name="USER_GOALS">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:32:05 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>GOALS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_USER" id="AA653803-71BD-66D7-2861-DB8D6341417D">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:38:27 UTC</createdTime>
+<generatorID>56C9874A-ADAD-5247-EDA8-0F5B3672C0A7</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>DF90D696-0CD3-025B-24E0-16126864F850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_GOAL" id="F99EDE90-6192-D818-7FEA-6EFC942C215D">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:32:49 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_BANK" id="5A604545-B123-5D1E-3A1C-72E620CFC4EB">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:57:21 UTC</createdTime>
+<generatorID>BC4E7A1F-7D21-750F-BC7C-4977EB8831DE</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>A0C499B6-350F-2134-3859-39A2248C86F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_REGISTER" id="078C55D4-25B0-E1C5-6D5D-FFF84ADAA1E1">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:37:45 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_NAME" id="D82E1F67-0DC4-3E5A-FE74-EF5131EAA3FA">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:32:30 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_VALUE" id="6F77ACC3-DFA3-18A9-0109-256D63BB1119">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:33:15 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_YYMM_DATE" id="A586B2B8-A380-9DF7-5510-A3337EFB172A">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:35:41 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_VALUE_NOW" id="BDF669B3-071F-604F-0447-65B84F43A41A">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:34:05 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_LAST_VALUE_ADD" id="1A147FF3-D527-9546-1C5D-082D65318B5F">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:34:31 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_LAST_VALUE_ADD_DATE" id="A4C46236-910F-84F2-4FDF-8CAA8CD8A500">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:35:20 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOAL_COMENTS" id="7BEAA9E5-0478-5B3D-B0CF-38F97B4F8919">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:36:20 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93759571-C128-7007-48B3-4E5D61CDFAB5" name="USER_GOALS PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:33:07 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F99EDE90-6192-D818-7FEA-6EFC942C215D</attributeRef>
+<attributeRef>AA653803-71BD-66D7-2861-DB8D6341417D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

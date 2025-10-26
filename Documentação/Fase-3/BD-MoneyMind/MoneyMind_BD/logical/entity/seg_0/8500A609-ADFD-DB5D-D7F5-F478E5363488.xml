@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8500A609-ADFD-DB5D-D7F5-F478E5363488" name="PASSWORD_USER">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:03:27 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_USER" id="86FB5AC8-CAF3-EC2D-AF2A-3138CCEA77A4">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:05:47 UTC</createdTime>
+<generatorID>1660105F-A1EA-4855-E533-3AC26AA3AC4E</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>DF90D696-0CD3-025B-24E0-16126864F850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD_USER" id="9F2FBEAC-8B23-9294-CE68-67F688764447">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:03:38 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD_STATUS" id="8C29C7E3-5701-7EBD-9F13-41061257CFA1">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:04:03 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD_REGISTER" id="FC32026E-91CD-E7EF-9522-55ADC129A915">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:05:12 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

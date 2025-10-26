@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MoneyMind_BD" id="C14B5DCB-BAD5-11BA-BDE0-65E82295BCC3" version="3.5">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 16:51:02 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C14B5DCB-BAD5-11BA-BDE0-65E82295BCC3</designId>
+</OSDM_Design>

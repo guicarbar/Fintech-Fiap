@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95A7E46F-8C51-7E9A-3C54-5E0CA40965B7" name="PASSWORD_USER">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>8500A609-ADFD-DB5D-D7F5-F478E5363488</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_USER_CD_USER" id="8E415B93-29F8-ADA6-260F-221A7C9268BC">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>86FB5AC8-CAF3-EC2D-AF2A-3138CCEA77A4</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9653FEE0-8691-4155-8F3A-F4BFE236E880" referredColumn="70879236-D442-F173-78DC-041A4EAB8201"/>
+</associations>
+</Column>
+<Column name="PASSWORD_USER" id="595B6794-C46E-584F-29F6-29DC606A73D7">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>9F2FBEAC-8B23-9294-CE68-67F688764447</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_STATUS" id="81425661-E4D3-C715-3CD4-FEEA10834422">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>8C29C7E3-5701-7EBD-9F13-41061257CFA1</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_REGISTER" id="FB761BD2-2164-908F-B0DC-66B766144688">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>FC32026E-91CD-E7EF-9522-55ADC129A915</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6987E34-4447-6292-0032-872E03B106B0" name="PASSWORD_USER_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>1660105F-A1EA-4855-E533-3AC26AA3AC4E</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E415B93-29F8-ADA6-260F-221A7C9268BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

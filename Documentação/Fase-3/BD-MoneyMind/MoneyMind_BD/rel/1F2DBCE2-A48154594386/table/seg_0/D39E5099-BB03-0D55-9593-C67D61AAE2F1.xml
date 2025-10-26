@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D39E5099-BB03-0D55-9593-C67D61AAE2F1" name="TB_USER_INFOS">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>4F82A076-8759-A40B-C451-2C562298D679</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<abbreviation>USER_INFOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_USER_CD_USER" id="4CF8187A-6210-4177-EF59-EDAACC131D5B">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>3E7BAC68-32F0-81A4-48E1-4F729641BBE7</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6E1734E-81A4-7D5A-2730-4ED9DD1755E7" referredColumn="70879236-D442-F173-78DC-041A4EAB8201"/>
+</associations>
+</Column>
+<Column name="NOM_USER" id="A9225E20-F86B-9189-8F82-89F4F1229C6D">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>065D3CD6-7B23-48D0-7732-855C1BD38449</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_USER" id="BD296470-3742-2511-20ED-ACE2B704DBCF">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>1E407BEA-25BF-17D6-A5A7-F7771D8B8233</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER_USER" id="A751B413-A17A-4161-16C2-E56FF41324BC">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>9372BABB-2CB2-947B-8445-F8E8E720D2DD</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_USER" id="AF0B1214-1898-C32F-68E2-5227DF966544">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>D30F90E0-315D-0AF1-33C2-245A2DF6A1BB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55B9D7D7-3F11-4F10-5F20-ABD4B98014F5" name="TB_USER_INFOS__IDX">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B3F40D70-3752-8C99-08E3-9F9FBCCCB41F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4CF8187A-6210-4177-EF59-EDAACC131D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52AF8BE7-2308-2B35-3BE2-DE409D82B60C" name="TB_USER_INFOS_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>B3F40D70-3752-8C99-08E3-9F9FBCCCB41F</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CF8187A-6210-4177-EF59-EDAACC131D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

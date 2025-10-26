@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F8A95FD-99BC-1CE1-35A0-6AEFB7E3F5B5" name="TB_INCOME">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 18:18:09 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>INCOME</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_USER" id="0CF246E8-224F-7D12-2546-B466A8204778">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:31:02 UTC</createdTime>
+<generatorID>7611CE92-2A46-E775-7D3A-254AC7E72B29</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>DF90D696-0CD3-025B-24E0-16126864F850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_INCOME" id="53C775AB-CB81-BB50-5148-D67D2B15F163">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:22:09 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_BANK" id="26BECA91-F0DA-89C2-6AA0-192376CBFF8E">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:46:31 UTC</createdTime>
+<generatorID>18D526B1-02B4-AD52-CDB7-43C0E3EE50B5</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>A0C499B6-350F-2134-3859-39A2248C86F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INCOME_NOM" id="E5380A69-DE03-99B2-652C-59F3D14AD82B">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:23:12 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INCOME_VALUE" id="41CAEB9E-7E60-50EB-7AD7-EE6C86D7DFB8">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:23:33 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INCOME_DATE" id="1D0FBB6A-E529-9309-A24C-D17DC3F7414A">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:25:51 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3243C160-98B0-02F6-6785-96473005F493" name="TB_INCOME PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:22:51 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53C775AB-CB81-BB50-5148-D67D2B15F163</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

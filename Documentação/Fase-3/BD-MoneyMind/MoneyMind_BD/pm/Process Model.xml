@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0038E896-2356-DE81-91DD-0EC4E303B4A6">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 16:51:02 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

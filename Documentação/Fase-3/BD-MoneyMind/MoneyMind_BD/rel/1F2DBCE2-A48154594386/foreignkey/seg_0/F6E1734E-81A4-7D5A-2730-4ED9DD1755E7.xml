@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6E1734E-81A4-7D5A-2730-4ED9DD1755E7" containerWithKeyObject="D39E5099-BB03-0D55-9593-C67D61AAE2F1" localFKIndex="52AF8BE7-2308-2B35-3BE2-DE409D82B60C" name="TB_USER_INFOS_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>B3F40D70-3752-8C99-08E3-9F9FBCCCB41F</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<referredTableLongName>TB_USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63CF0F3C-CEA0-CE40-EEB0-BE7EE64377B0</referredTableID>
+<keyObject>812F87B3-CEED-BD7D-D7DA-9C56042D4011</keyObject>
+<referredKeyID>812F87B3-CEED-BD7D-D7DA-9C56042D4011</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_USER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AAAEA9E-48A1-47D1-A0A8-B581A8016B4C" containerWithKeyObject="BDBCAE8F-CA16-589C-5555-B2BC716D6D58" localFKIndex="F28F87FF-C014-61AD-3CAA-D734254A053C" name="TB_EXPENSES_TB_BANK_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>E16B266E-D540-55B1-BA21-CD7FB9E275CB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<referredTableLongName>TB_BANK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FBD3712-F6C8-ECFE-FF09-51712AE3F23E</referredTableID>
+<keyObject>896BA1D4-8828-B33F-8C81-77F850B2A431</keyObject>
+<referredKeyID>896BA1D4-8828-B33F-8C81-77F850B2A431</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_BANK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

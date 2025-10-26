@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3746409E-5158-8739-363C-4331B1034E22" name="TB_USERS_BANKS">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:47:13 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_USER" id="73B2FA5E-E4C2-537A-AEB6-13DFA9C4D7D9">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:51:19 UTC</createdTime>
+<generatorID>6F336400-9C8A-B730-F9DC-BD4849250761</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>DF90D696-0CD3-025B-24E0-16126864F850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANK_ACCOUNT" id="B2BF2890-24B2-F572-F755-2F75C0C48FA0">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:48:32 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_BANK" id="51C513C8-3577-CC7D-D55C-C04F1972BF41">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:53:40 UTC</createdTime>
+<generatorID>96711BBB-1D0C-9098-647B-C14D6AAE8516</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<referedAttribute>A0C499B6-350F-2134-3859-39A2248C86F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D48B929B-BD9B-746E-E011-B4E58E988ABD" name="TB_USERS_BANKS PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 19:51:19 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<engineerTo>
+<item key="1F2DBCE2-0201-8350-EE63-A48154594386" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73B2FA5E-E4C2-537A-AEB6-13DFA9C4D7D9</attributeRef>
+<attributeRef>B2BF2890-24B2-F572-F755-2F75C0C48FA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

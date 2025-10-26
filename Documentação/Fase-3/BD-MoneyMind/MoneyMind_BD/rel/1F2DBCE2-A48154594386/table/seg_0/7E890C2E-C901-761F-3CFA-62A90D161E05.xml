@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E890C2E-C901-761F-3CFA-62A90D161E05" name="USER_GOALS">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>E49751D6-9801-AD08-B3DD-0863C0FE9C80</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<abbreviation>GOALS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_USER_CD_USER" id="8F6EAA10-E521-B43A-E82C-B370134FE2D8">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>AA653803-71BD-66D7-2861-DB8D6341417D</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1F96385-27C3-2455-1B5B-03D223D1055A" referredColumn="70879236-D442-F173-78DC-041A4EAB8201"/>
+</associations>
+</Column>
+<Column name="CD_GOAL" id="42EC7B03-1EE0-E4E1-57DC-29C6FE0077F8">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>F99EDE90-6192-D818-7FEA-6EFC942C215D</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_BANK_CD_BANK" id="D44E5C9A-B142-8E08-E1BD-547EC992296C">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>5A604545-B123-5D1E-3A1C-72E620CFC4EB</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FE51178-7E43-0290-1599-C85AEFE51762" referredColumn="D40338AE-253E-E9D5-32F5-36AF52E156E6"/>
+</associations>
+</Column>
+<Column name="GOAL_REGISTER" id="8D77AC64-A6CD-D7C9-111D-4A96E2DA6480">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>078C55D4-25B0-E1C5-6D5D-FFF84ADAA1E1</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_NAME" id="2BFAF85B-8BAB-7E25-48D7-8C0BCB8368BC">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>D82E1F67-0DC4-3E5A-FE74-EF5131EAA3FA</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_VALUE" id="98354592-0896-C978-AE87-CF7A6CDE26E3">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>6F77ACC3-DFA3-18A9-0109-256D63BB1119</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_YYMM_DATE" id="6C3F8903-B889-E14C-CEFF-C53595DE6971">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>A586B2B8-A380-9DF7-5510-A3337EFB172A</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_VALUE_NOW" id="2ACCC9A4-6FF2-35B7-C48D-B434DB735DE1">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>BDF669B3-071F-604F-0447-65B84F43A41A</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_LAST_VALUE_ADD" id="452CDD13-0F90-B6DA-F8FB-7A26B4BA97A6">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>1A147FF3-D527-9546-1C5D-082D65318B5F</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_LAST_VALUE_ADD_DATE" id="F3B81A57-2459-E092-9087-63593229A318">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>A4C46236-910F-84F2-4FDF-8CAA8CD8A500</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOAL_COMENTS" id="A1973849-F9CA-D5CF-C4E0-CA2C49A500F5">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>7BEAA9E5-0478-5B3D-B0CF-38F97B4F8919</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0371510D-7EBC-994A-8319-E57059764B57" name="USER_GOALS_PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>93759571-C128-7007-48B3-4E5D61CDFAB5</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42EC7B03-1EE0-E4E1-57DC-29C6FE0077F8"/>
+<colUsage columnID="8F6EAA10-E521-B43A-E82C-B370134FE2D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6580B428-C64F-D7B4-C162-ACD723BEC7FB" name="USER_GOALS__IDX">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BC4E7A1F-7D21-750F-BC7C-4977EB8831DE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D44E5C9A-B142-8E08-E1BD-547EC992296C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81050387-B58E-5C00-961B-7EF297866D1D" name="USER_GOALS_TB_BANK_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>BC4E7A1F-7D21-750F-BC7C-4977EB8831DE</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44E5C9A-B142-8E08-E1BD-547EC992296C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0ECF05C-3A19-66B6-E13B-A7A4AD82959C" name="USER_GOALS_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>56C9874A-ADAD-5247-EDA8-0F5B3672C0A7</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F6EAA10-E521-B43A-E82C-B370134FE2D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

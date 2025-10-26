@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A04B13B9-588E-C3B2-BC27-B7E703CDE49A" mainViewID="6AB194E6-AEC6-B3E5-D637-9674C9CFDBE7">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-25 16:51:02 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

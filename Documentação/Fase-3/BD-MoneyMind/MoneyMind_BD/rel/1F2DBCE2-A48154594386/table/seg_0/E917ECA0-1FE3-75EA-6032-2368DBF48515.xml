@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E917ECA0-1FE3-75EA-6032-2368DBF48515" name="TB_INCOME">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>3F8A95FD-99BC-1CE1-35A0-6AEFB7E3F5B5</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<abbreviation>INCOME</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_USER_CD_USER" id="FEDE677D-51AF-9EF7-B911-4B217B21401E">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>0CF246E8-224F-7D12-2546-B466A8204778</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32B46DDF-A2F7-45CA-081C-6896ACD5F057" referredColumn="70879236-D442-F173-78DC-041A4EAB8201"/>
+</associations>
+</Column>
+<Column name="CD_INCOME" id="AADB4B5A-9FC3-812B-E587-54C7DE4BF3FF">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>53C775AB-CB81-BB50-5148-D67D2B15F163</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 CHAR</dataTypeSize>
+<ownDataTypeParameters>24 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_BANK_CD_BANK" id="4559F9A1-5FFB-AB39-937C-E52C754547F9">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>26BECA91-F0DA-89C2-6AA0-192376CBFF8E</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4435BC6E-946B-4218-A2F8-364F5A6EC034" referredColumn="D40338AE-253E-E9D5-32F5-36AF52E156E6"/>
+</associations>
+</Column>
+<Column name="INCOME_NOM" id="96D73408-C417-B28F-CC1F-E04402FD944D">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>E5380A69-DE03-99B2-652C-59F3D14AD82B</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCOME_VALUE" id="AE313E58-F81E-86CB-1243-00634005294B">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>41CAEB9E-7E60-50EB-7AD7-EE6C86D7DFB8</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCOME_DATE" id="A44F69CB-1E6E-B617-4205-B81C62BCA47A">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>1D0FBB6A-E529-9309-A24C-D17DC3F7414A</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="548E9ED8-AC07-AAD7-FF9B-04E4EE7C783A" name="TB_INCOME_PK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>3243C160-98B0-02F6-6785-96473005F493</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AADB4B5A-9FC3-812B-E587-54C7DE4BF3FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="412D6C17-1B66-A142-FAA9-0A89CAB2A1A3" name="TB_INCOME__IDX">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>18D526B1-02B4-AD52-CDB7-43C0E3EE50B5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4559F9A1-5FFB-AB39-937C-E52C754547F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D424C99-E72D-D0EF-439C-B132957DEDD5" name="TB_INCOME_TB_BANK_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>18D526B1-02B4-AD52-CDB7-43C0E3EE50B5</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4559F9A1-5FFB-AB39-937C-E52C754547F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A70AE88-FDFA-FF63-A431-FAE6BBD8166B" name="TB_INCOME_TB_USER_FK">
+<createdBy>guica</createdBy>
+<createdTime>2025-10-26 03:33:23 UTC</createdTime>
+<generatorID>7611CE92-2A46-E775-7D3A-254AC7E72B29</generatorID>
+<ownerDesignName>MoneyMind_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEDE677D-51AF-9EF7-B911-4B217B21401E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
