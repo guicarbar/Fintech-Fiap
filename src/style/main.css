@@ -1,0 +1,39 @@
+/* Imports */
+/* Reset CSS */
+@import url(reset.css);
+/* Fonts */
+@import url(fonts.css);
+
+
+/* root */
+:root {
+  /* Font */
+  --font--RobotoMono: "Roboto Mono", monospace;
+
+  /* Gray palette */
+  --color--gray1: #3a3a3c;
+  --color--gray2: #242426;
+  --color--gray3: #545456;
+  --color--gray4: #aeaeb2;
+
+  /* B&W palette */
+  --color--white: #ebebff;
+  --color--black: #00001f;
+
+  /* Purple palette */
+  --color--purple1: #D8D0E8;
+  --color--purple2: #3D3554;
+  --color--purple3: #2B2640;
+}
+
+/*                                      Classe CSS das fonts
+
+roboto-mono-300
+roboto-mono-300-italic
+roboto-mono-400
+roboto-mono-600
+
+*/
+
+
+/*  */

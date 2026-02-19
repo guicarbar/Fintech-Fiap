@@ -27,7 +27,7 @@
 
 > O FINTECH é um projeto desenvolvido durante o primeiro ano do curso de Análise e Desenvolvimento de Sistemas (ADS) na FIAP.
 > O objetivo deste projeto é criar um aplicativo financeiro que auxilie os usuários a administrar suas finanças pessoais de forma prática e eficiente.
-> Este repositório será utilizado para documentar todo o processo de desenvolvimento do projeto, que ao longo do ano foi dividido em 7 fases, conforme o material didático da faculdade.
+> Este repositório será utilizado para documentar todo o processo de desenvolvimento do projeto, que awdo longo do ano foi dividido em 7 fases, conforme o material didático da faculdade.
 > As atividades estão organizadas em pastas correspondentes a cada uma das fases do desenvolvimento.
 
 
@@ -35,10 +35,13 @@
 
 ```bash
 📦 Fintech - (FIAP - Money Minds)
-├── 📁 Code
+├── 📁 src
 │   ├── 📁 Style
+│   │   ├── 📄 reset.css
+│   │   └── 📄 main.css
 │   ├── 📁 Js
 │   ├── 📁 Pages
+│   ├── 📁 img
 ├── 📁 Documentação
 │   ├── 📁 Fase-1
 │   │   ├── 📄 StoryMapping.png
@@ -50,6 +53,7 @@
 │   │   ├── 📄 ModeloRelacional.png
 │   │   └── 📁 BD-MoneyMind (Modelos lógico e relacional)
 │   ├── 📁 Fase-4
+│   │   ├── 
 │   ├── 📁 Fase-5
 │   ├── 📁 Fase-6
 │   ├── 📁 Fase-7
@@ -79,6 +83,7 @@
 ### Fase 3 - Modeling 🧠📊
 
 > O modelo lógico e o modelo relacional do banco de dados do projeto foram desenvolvidos utilizando a ferramenta Oracle SQL Developer Data Modeler, conforme orientação da faculdade.
+>
 > *Observação*: um backup completo do banco de dados desenvolvido foi armazenado na pasta: `Fintech-FIAP > Documentação > Fase-3 > BD-MoneyMind`
 
 📂 [Backup do BD](Documentacao/Fase-3/BD-MoneyMind/)
@@ -91,10 +96,17 @@
 
 ### Fase 4 - View 🎨👁️
 
-
+> Na fase de **View**, inicia-se o desenvolvimento do projeto utilizando **HTML, CSS e JavaScript**, com o auxílio do **Bootstrap** para padronização e customização da estilização.
+>
+> Ressalta-se que o desenvolvimento do projeto poderá sofrer alterações ao longo das próximas fases. Caso deseje visualizar como o projeto estava neste momento específico, retorne ao commit "".
+>
+> Outra forma de verificar o progresso desta fase é inspecionando o arquivo `.rar` disponível dentro da pasta da Fase 4.
 
 
 ### Fase 5 - OOP 💻🔄
+
+
+
 
 ### Fase 6 - Model 🗂️🧱
 
