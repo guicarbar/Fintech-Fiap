@@ -98,7 +98,9 @@
 
 > Na fase de **View**, inicia-se o desenvolvimento do projeto utilizando **HTML, CSS e JavaScript**, com o auxílio do **Bootstrap** para padronização e customização da estilização.
 >
-> Ressalta-se que o desenvolvimento do projeto poderá sofrer alterações ao longo das próximas fases. Caso deseje visualizar como o projeto estava neste momento específico, retorne ao commit "".
+> O projeto, nesta fase, foi desenvolvido seguindo o conceito de **Mobile First**, conforme sugerido pela faculdade para a entrega da atividade.
+>
+> Ressalta-se que o desenvolvimento do projeto poderá sofrer alterações ao longo das próximas fases. Caso deseje visualizar como o projeto estava neste momento específico, retorne ao commit "`teste`".
 >
 > Outra forma de verificar o progresso desta fase é inspecionando o arquivo `.rar` disponível dentro da pasta da Fase 4.
 

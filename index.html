@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Style -->
-  <!-- Style - P -->
-  <link rel="stylesheet" href="src/style/main.css">
   <!-- Style - External -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Style - P -->
+  <link rel="stylesheet" href="src/style/main.css">
+  <link rel="stylesheet" href="src/style/index.css">
 
   <!-- JS -->
   <!-- JS - P -->
@@ -23,24 +24,121 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="navbar bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand roboto-mono-600">Money Minds</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar py-0 fixed-top">
+    <div class="container-fluid navbar-main">
+      <!-- Brand -->
+      <a class="navbar-brand d-flex align-items-center roboto-mono-300-italic navbar-brand-title" href="index.html">
+        <img src="src/img/MM-Icon1-NoBG.png" alt="Icone do Money Minds">
+        <p class="mb-0 fs-2">Money Minds</p>
+      </a>
+      <!-- Menu button -->
+      <button class="navbar-toggler navbar-menu-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-end offcanvas-main" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- Offcanvas - Header -->
+        <div class="offcanvas-header d-flex justify-content-between">
+          <h5 class="offcanvas-title fs-2 roboto-mono-300-italic" id="offcanvasNavbarLabel">Money Minds</h5>
+          <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="bi bi-x"></i>
+          </button>
         </div>
-        <div class="offcanvas-body">
+        <!-- Offcanvas - Body -->
+        <div id="canvasBody" class="offcanvas-body" >
           
         </div>
-      </div>
     </div>
   </nav>
 
-  <!--  -->
+  <!-- User bottom -->
+  <div class="m-3 fixed-bottom d-flex justify-content-end user-button">
+    <div>
+      <button class="p-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+        <i class="bi bi-person-fill"></i>
+      </button>
+    </div>
+    
+    <div class="offcanvas offcanvas-bottom offcanvas-user" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header d-flex justify-content-between">
+        <h5 class="offcanvas-title roboto-mono-300" id="offcanvasBottomLabel">Area do usuario</h5>
+        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="bi bi-x"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body small">
+
+      </div>
+    </div>  
+  </div>
+
+  <main class="index-page">
+    <!-- Bloco 1 -->
+    <div class="mb-5 d-flex flex-column justify-content-between" id="bloco-web-1">
+      <!-- Banner -->
+      <div class="mt-5 d-flex justify-content-between align-items-center banner-index">
+        <img src="src/img/MM-Icon1-Half-NoBG.png" alt="Metade do icone do Money Minds">
+        <h1 class="me-2 roboto-mono-100-italic lh-sm">Money<br>Minds</h1>
+      </div>
+
+      <!-- Slogan  -->
+      <div class="slogan text-center">
+        <h1 class="roboto-mono-300-italic lh-base fs-1 text-uppercase">"Consiencia financeira.<br>Liberdade real"</h1>
+        <hr>
+      </div>
+      <!-- Scroll block -->
+      <div class="d-flex flex-column align-items-center justify-content-center scroll-icon">
+        <i class="bi bi-mouse"></i>
+      </div>
+    </div>
+
+    <!-- Bloco 2 -->
+    <div id="bloco-web-2" class="mt-5 p-3 welcome">
+      <!-- Introduction -->
+      <div>
+        <h2 class="h2 ms-3 my-5 roboto-mono-300-italic">O'Que é Money Minds?<hr class="welcome-hr"></h2>
+        <p class="my-3 roboto-mono-400">
+          O Money Minds é um projeto desenvolvido com o objetivo de simular uma fintech educacional, criada para ajudar usuários a aprenderem a investir, organizar suas contas e desenvolver uma vida financeira mais equilibrada.
+        </p>
+        <p class="my-3 roboto-mono-400">
+          A plataforma foi pensada para oferecer uma experiência simples, intuitiva e acessível, permitindo que qualquer pessoa possa acompanhar seus gastos, definir metas financeiras e adquirir conhecimento sobre investimentos de forma prática.
+        </p>
+        <p class="my-3 roboto-mono-400">
+          Mais do que um organizador financeiro, o Money Minds busca incentivar a educação financeira, promovendo autonomia, planejamento e decisões mais conscientes sobre o dinheiro.
+        </p>
+      </div>
+      <!-- Features -->
+      <div class="mt-5 roboto-mono-400 features-main">
+        <!-- Title -->
+        <h2 class="h2 text-center">Funcionalidades!</h2>
+        <!-- Controle financeiro -->
+        <div class="features-item my-5 text-end">
+          <h3 class="mb-2 fs-4">Registro de Entradas e Saídas</h3>
+          <p>Permite que o usuário registre suas movimentações financeiras, adicionando comentários personalizados e organizando tudo por categorias. Dessa forma, é possível ter uma visão clara sobre para onde o dinheiro está indo e como está sendo utilizado.</p>
+        </div>
+        <!-- Goals -->
+        <div class="features-item my-5 text-start">
+          <h3 class="mb-2 fs-4">Criação de Metas Financeiras</h3>
+          <p>O usuário pode criar metas com nomes e descrições personalizadas, definindo objetivos como viagens, investimentos, reserva de emergência ou compras planejadas. Isso incentiva o planejamento e o foco em conquistas financeiras de curto, médio e longo prazo.</p>
+        </div>
+        <!-- Calculate -->
+        <div class="features-item my-5 text-end">
+          <h3 class="mb-2 fs-4">Cálculo Inteligente de Distribuição Mensal</h3>
+          <p>Com base nas despesas fixas registradas, o sistema calcula automaticamente quanto pode ser destinado a investimentos e quanto pode ser reservado para lazer e recreação ao longo do mês, promovendo equilíbrio entre responsabilidade e qualidade de vida.</p>
+        </div>
+        <!-- Investimentes -->
+        <div class="features-item my-5 text-start">
+          <h3 class="mb-2 fs-4">Dicas de Investimento</h3>
+          <p>A plataforma oferece sugestões e orientações sobre investimentos, ajudando o usuário a desenvolver conhecimento financeiro e tomar decisões mais conscientes para fazer o dinheiro render.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="d-flex flex-column justify-content-center align-items-center gap-3">
+    <p>Money Minds © Guilheme Carvalho Barbosa, 2025</p>
+    <a href="https://github.com/guicarbar"><i class="bi bi-github"></i></a>
+  </footer>
 </body>
 </html>

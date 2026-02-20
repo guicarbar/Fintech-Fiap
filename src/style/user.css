@@ -1,0 +1,73 @@
+/* root */
+:root {
+  /* Font */
+  --font--RobotoMono: "Roboto Mono", monospace;
+
+  /* Gray palette */
+  --color--gray1: #3a3a3c;
+  --color--gray2: #242426;
+  --color--gray3: #545456;
+  --color--gray4: #aeaeb2;
+
+  /* B&W palette */
+  --color--white: #ebebff;
+  --color--black: #00001f;
+
+  /* Purple palette */
+  --color--purple1: #D8D0E8;
+  --color--purple2: #3D3554;
+  --color--purple3: #2B2640;
+}
+
+
+
+.user-button {
+  z-index: 9;
+}
+
+.user-button > div > button {
+  border-radius: 50%;
+  outline: 1px solid transparent;
+  background-color: var(--color--gray2);
+  box-shadow: inset 0px 0px 24px 8px var(--color--purple2);
+  border: none;
+  transition: all .3s ease;
+}
+
+.user-button > div > button:hover {
+  outline: 1px solid var(--color--purple1);
+}
+
+.user-button > div > button >  i {
+  color: var(--color--purple1);
+  font-size: 1.6em;
+}
+
+
+
+
+
+/* Offcanvas */
+.offcanvas-user {
+  background-color: var(--color--gray1)
+}
+
+.offcanvas-user > .offcanvas-header > h5 {
+  color: var(--color--purple1);
+}
+
+.offcanvas-user > .offcanvas-header > button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .6em;
+  transition: .3s ease;
+}
+
+.offcanvas-user > .offcanvas-header > button:hover {
+  border: 1px solid var(--color--purple1);
+}
+
+.offcanvas-user > .offcanvas-header > button > i {
+  font-size: 1.6em;
+  color: var(--color--purple1);
+}

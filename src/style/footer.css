@@ -1,0 +1,13 @@
+footer {
+  height: 30vh;
+  background-color: var(--color--gray2);
+}
+
+
+footer > p, footer > a > i {
+  color: var(--color--purple1)
+}
+
+footer > a > i { 
+  font-size: 2em;
+}

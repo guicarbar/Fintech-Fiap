@@ -1,0 +1,103 @@
+/* footer for webpages for not use in user tools */
+@import url(footer.css);
+
+/* Style of Index Page */
+
+
+/* root */
+:root {
+  /* Font */
+  --font--RobotoMono: "Roboto Mono", monospace;
+
+  /* Gray palette */
+  --color--gray1: #3a3a3c;
+  --color--gray2: #242426;
+  --color--gray3: #545456;
+  --color--gray4: #aeaeb2;
+
+  /* B&W palette */
+  --color--white: #ebebff;
+  --color--black: #00001f;
+
+  /* Purple palette */
+  --color--purple1: #D8D0E8;
+  --color--purple2: #3D3554;
+  --color--purple3: #2B2640;
+}
+
+#bloco-web-1 {
+  height: 95vh;
+}
+
+#bloco-web-2 {
+  min-height: 100vh;
+}
+
+/*                              temporario
+body {
+  overflow: hidden;
+}
+*/
+
+
+/* Banner */
+main.index-page {
+  background-color: var(--color--gray1);
+}
+
+.banner-index > img {
+  width: 65vw;
+}
+
+.banner-index > h1 {
+  font-size: 3em;
+  color: var(--color--purple1);
+}
+
+.scroll-icon > i {
+  font-size: 2em;
+  color: var(--color--purple1);
+  cursor: pointer;
+}
+
+
+.slogan {
+  color: var(--color--purple1);
+}
+
+.slogan > hr {
+  border-radius: 1em;
+  height: 6px;
+  background-color: var(--color--purple1);
+  width: 85%;
+  margin: auto;
+}
+
+
+
+.welcome {
+  color: var(--color--white);
+}
+
+.welcome-hr {
+  border-radius: 1em;
+  height: 3px;
+  background-color: var(--color--purple1);
+  width: 75%;
+}
+
+
+.welcome > div > p {
+  text-indent: 1em;
+}
+
+
+
+.features-main {
+  
+}
+
+
+.features-item {
+
+}

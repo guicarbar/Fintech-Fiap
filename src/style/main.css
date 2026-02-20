@@ -3,7 +3,10 @@
 @import url(reset.css);
 /* Fonts */
 @import url(fonts.css);
-
+/* Navbar */
+@import url(navbar.css);
+/* User */
+@import url(user.css);
 
 /* root */
 :root {
@@ -28,6 +31,7 @@
 
 /*                                      Classe CSS das fonts
 
+roboto-mono-100-italic
 roboto-mono-300
 roboto-mono-300-italic
 roboto-mono-400
@@ -36,4 +40,14 @@ roboto-mono-600
 */
 
 
-/*  */
+/* General styles */
+html {
+  background-color: var(--color--gray1);
+}
+
+
+/* Alter Styles for Bootstrap*/
+.offcanvas-backdrop {
+  z-index: 8;
+}
+
