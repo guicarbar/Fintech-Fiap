@@ -25,7 +25,6 @@
 /* General Style for navbar - All pages */
 /* Navbar */
 .navbar-main {
-  background-color: var(--color--gray1);
   backdrop-filter: blur(10px);
 }
 
@@ -61,7 +60,8 @@
 }
 
 .offcanvas-main {
-  background-color: var(--color--gray1);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
   z-index: 10;
 }
 

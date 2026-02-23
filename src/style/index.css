@@ -25,24 +25,21 @@
   --color--purple3: #2B2640;
 }
 
-#bloco-web-1 {
-  height: 95vh;
+.section {
+  min-height: 95vh;
+  width: 100%;
 }
 
-#bloco-web-2 {
-  min-height: 100vh;
-}
-
-/*                              temporario
 body {
   overflow: hidden;
+  scroll-behavior: smooth;
 }
-*/
 
 
 /* Banner */
 main.index-page {
   background-color: var(--color--gray1);
+  transition: transform 0.7s ease-in-out;
 }
 
 .banner-index > img {
@@ -91,13 +88,13 @@ main.index-page {
   text-indent: 1em;
 }
 
-
-
-.features-main {
-  
+.return > i {
+  font-size: 2em;
+  color: var(--color--purple1);
+  cursor: pointer;
 }
 
-
-.features-item {
+.makeAccount-btn {
+  background-color: var(--color--purple1);
 
 }
