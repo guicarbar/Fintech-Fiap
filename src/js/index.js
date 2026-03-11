@@ -10,7 +10,7 @@ let currentSection = 0
 let isScrolling = false
 let nextSection = 0
 
-
+// Scroll function
 function scrollToSection(index) {
   if (index < 0 || index >= sections.length) return
 
@@ -27,7 +27,10 @@ function scrollToSection(index) {
   }, 800)
 }
 
+// Usando rodinha do mouse para navegar plea pagina de forma pratica
 window.addEventListener("wheel", (event) => {
+  if (window.minhaVariavel == true) {return}
+
   if (isScrolling) return
 
   if (event.deltaY > 0) {
@@ -47,7 +50,10 @@ window.addEventListener("wheel", (event) => {
   }
 })
 
+// usanod setinhas para navegar pela pagina de forma pratica
 window.addEventListener("keydown", (event) => {
+  if (window.minhaVariavel == true) {return}
+
   if (event.key == "ArrowDown") {
     if (currentSection >= currentSection.length -1) {
       nextSection = currentSection.length = -1
@@ -66,3 +72,5 @@ window.addEventListener("keydown", (event) => {
     scrollToSection(nextSection)
   }
 })
+
+// Observando elemento apareacer na tela para desativar o scroll

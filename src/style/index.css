@@ -54,7 +54,6 @@ main.index-page {
 .scroll-icon > i {
   font-size: 2em;
   color: var(--color--purple1);
-  cursor: pointer;
 }
 
 
@@ -92,9 +91,41 @@ main.index-page {
   font-size: 2em;
   color: var(--color--purple1);
   cursor: pointer;
+  transition: .3s ease;
+}
+
+.return > i:hover {
+  transform: scale(1.2);
 }
 
 .makeAccount-btn {
   background-color: var(--color--purple1);
+  transition: .3s ease;
+}
 
+.makeAccount-btn:hover {
+  transform: scale(1.1);
+}
+
+
+.bi-mouse {
+  animation: MouseIcon infinite 3s ease;
+}
+
+@keyframes MouseIcon {
+  0% {
+    transform: translateY(0em);
+  }
+  50% {
+    transform: translateY(.6em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+.offcanvas-body-down {
+  color: var(--color--white);
 }
