@@ -24,7 +24,7 @@
   <!--  -->
   <div>
     <!-- Login -->
-    <div class="principalBox p-3 gap-5 d-flex flex-column align-items-center justify-content-center">
+    <div id="loginArea" class="principalBox p-3 gap-5 d-flex flex-column align-items-center justify-content-center">
       <h2 class="roboto-mono-100-italic h2 text-center">Login</h2>
       <form class="w-75">
         <!-- Usuario -->
@@ -53,8 +53,44 @@
       </form>
     </div>
     <!-- Cadastro -->
-    <div>
-
+    <div class="principalBox p-3 gap-5 d-flex flex-column align-items-center justify-content-center d-none">
+      <h2 class="roboto-mono-100-italic h2 text-center">Cadastrar</h2>
+      <form class="w-75">
+        <!-- Usuario -->
+        <div class="mb-3">
+          <label for="email-user" class="form-label roboto-mono-400 icon-login d-flex gap-2 align-items-center">
+            <i class="bi bi-person-circle"></i>
+            <p>Usuario</p>
+          </label>
+          <input type="email" class="form-control input-login" id="email-user" aria-describedby="emailHelp">
+        </div>
+        <!-- Password 1 -->
+        <div class="mb-3">
+          <label for="password-user" class="form-label roboto-mono-400 icon-login d-flex gap-2 align-items-center">
+            <i class="bi bi-lock-fill"></i>
+            <p>Senha</p>
+          </label>
+          <input type="password" class="form-control input-login" id="password-user">
+        </div>
+        <!-- Password 2 -->
+        <div class="mb-3">
+          <label for="password-user" class="form-label roboto-mono-400 icon-login d-flex gap-2 align-items-center">
+            <i class="bi bi-lock-fill"></i>
+            <p>Confirmar senha</p>
+          </label>
+          <input type="password" class="form-control input-login" id="password-user">
+        </div>
+        <!-- submit -->
+        <button type="submit" class="btn roboto-mono-400 btn-login">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Alternate to login and cadastro -->
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="d-flex justify-content-between p-3 rounded btnArea">
+      <p class="roboto-mono-400" id="btn-login-icon">Login</p>
+      <p class="roboto-mono-400" id="btn-cadastro-icon">Cadastrar</p>
     </div>
   </div>
 

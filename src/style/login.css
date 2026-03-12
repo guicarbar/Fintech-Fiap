@@ -69,3 +69,11 @@
 .checkbox-login:checked {
   background-color: var(--color--purple1);
 }
+
+
+
+.btnArea {
+  border: 3px solid var(--color--purple1);
+  width: 50vw;
+  cursor: pointer;
+}
