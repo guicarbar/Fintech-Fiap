@@ -1,0 +1,71 @@
+/* root */
+:root {
+  /* Font */
+  --font--RobotoMono: "Roboto Mono", monospace;
+
+  /* Gray palette */
+  --color--gray1: #3a3a3c;
+  --color--gray2: #242426;
+  --color--gray3: #545456;
+  --color--gray4: #aeaeb2;
+
+  /* B&W palette */
+  --color--white: #ebebff;
+  --color--black: #00001f;
+
+  /* Purple palette */
+  --color--purple1: #D8D0E8;
+  --color--purple2: #3D3554;
+  --color--purple3: #2B2640;
+}
+
+* {
+  background-color: var(--color--gray1);
+  color: var(--color--white);
+}
+
+.goBack {
+  background-color: var(--color--gray1);
+}
+
+.goBack > i {
+  font-size: 2em;
+  color: var(--color--purple1);
+  cursor: pointer;
+}
+
+.principalBox {
+  height: 80vh;
+}
+
+.icon-login > p {
+  font-size: 1.2em;
+}
+
+.icon-login > i {
+  font-size: 2em;
+}
+
+.btn-login {
+  background-color: var(--color--purple1);
+}
+
+.btn-login:hover {
+  background-color: var(--color--purple2);
+}
+
+.input-login {
+  background-color: var(--color--gray1);
+  caret-color: var(--color--purple1);
+}
+
+.input-login:focus {
+  background-color: var(--color--gray1);
+  box-shadow: 0 0 0 0.25rem #d8d0e87a;
+  border-color: var(--color--purple1);
+}
+
+
+.checkbox-login:checked {
+  background-color: var(--color--purple1);
+}

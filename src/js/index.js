@@ -1,3 +1,4 @@
+// Elements for navgation
 const sections = [
   document.getElementById("sec1"),
   document.getElementById("sec2"),
@@ -6,11 +7,16 @@ const sections = [
   document.getElementById("sec5")
 ]
 
+// vars for link
+const link1 = document.getElementById("btnLink1")
+const link2 = document.getElementById("btnLink2")
+
+// Vars for js
 let currentSection = 0
 let isScrolling = false
 let nextSection = 0
 
-// Scroll function
+// Scroll Function
 function scrollToSection(index) {
   if (index < 0 || index >= sections.length) return
 
@@ -29,6 +35,7 @@ function scrollToSection(index) {
 
 // Usando rodinha do mouse para navegar plea pagina de forma pratica
 window.addEventListener("wheel", (event) => {
+  // Observando elemento apareacer na tela para desativar o scroll
   if (window.minhaVariavel == true) {return}
 
   if (isScrolling) return
@@ -50,8 +57,9 @@ window.addEventListener("wheel", (event) => {
   }
 })
 
-// usanod setinhas para navegar pela pagina de forma pratica
+// usando setinhas para navegar pela pagina de forma pratica
 window.addEventListener("keydown", (event) => {
+  // Observando elemento apareacer na tela para desativar o scroll
   if (window.minhaVariavel == true) {return}
 
   if (event.key == "ArrowDown") {
@@ -73,4 +81,12 @@ window.addEventListener("keydown", (event) => {
   }
 })
 
-// Observando elemento apareacer na tela para desativar o scroll
+
+// move to link for btns
+link1.addEventListener("click", () => {
+  window.location.href = "src/pages/login.html"
+})
+
+link2.addEventListener("click", () => {
+  window.location.href = "src/pages/login.html"
+})
