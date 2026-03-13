@@ -36,6 +36,7 @@
 
 .principalBox {
   height: 80vh;
+  transition: all .3s ease;
 }
 
 .icon-login > p {
@@ -76,4 +77,5 @@
   border: 3px solid var(--color--purple1);
   width: 50vw;
   cursor: pointer;
+  user-select: none;
 }
